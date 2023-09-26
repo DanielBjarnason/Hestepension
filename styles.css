@@ -171,6 +171,7 @@ p {
 /* section */
 .section {
   padding-bottom: 5rem;
+  padding-top: 2rem;
 }
 
 .section-center {
