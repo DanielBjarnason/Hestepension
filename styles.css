@@ -301,13 +301,15 @@ nav {
   header {
     min-height: 100vh;
     background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./images/Heste\ 4.jpg) center/cover no-repeat;
+    url(./images/Heste\ 1.jpg) center/cover no-repeat;
   }
+  /*  */
   .banner {
     min-height: 100vh;
     display: grid;
     place-items: center;
     text-align: center;
+    padding-bottom: 35vh;
   }
   .container h1 {
     color: var(--clr-white);
@@ -332,13 +334,15 @@ nav {
   .title span {
     color: var(--clr-secondary);
   }
-  #about,
-  #services,
-  #tours {
-    height: 80vh;
+  .omos-text {
+    text-align: center;
   }
   #services {
     background: var(--clr-white);
+  }
+  .services-text {
+    text-align: center;
+    margin-top: 3.5rem;
   }
   footer {
     background: var(--clr-grey-1);
